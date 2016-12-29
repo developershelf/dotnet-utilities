@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DeveloperShelf.Utilities")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("DeveloperShelf Utilities")]
+[assembly: AssemblyDescription("A suite of common .Net utilities")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DeveloperShelf.Utilities")]
+[assembly: AssemblyCompany("Developer Shelf")]
+[assembly: AssemblyProduct("DeveloperShelf Utilities")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

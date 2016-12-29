@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>dguerin</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/developershelf/dotnet-utilities/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/developershelf/dotnet-utilities</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A suite of common .Net utilities</description>
+    <releaseNotes>Adding config service</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>Utilities</tags>
+  </metadata>
+</package>
