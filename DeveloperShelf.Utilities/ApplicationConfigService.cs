@@ -3,7 +3,7 @@ using System.Configuration;
 
 namespace DeveloperShelf.Utilities
 {
-    public class ConfigService : IConfigService
+    public class ApplicationConfigService : IConfigService
     {
         /// <summary>
         /// provide integer value for the given key

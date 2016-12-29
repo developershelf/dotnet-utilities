@@ -139,12 +139,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CloudConfigService.cs" />
     <Compile Include="IConfigService.cs" />
-    <Compile Include="ConfigService.cs" />
+    <Compile Include="ApplicationConfigService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="DeveloperShelf.Utilities.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
