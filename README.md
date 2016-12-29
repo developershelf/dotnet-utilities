@@ -1,5 +1,5 @@
-# dotnet-utilities
-A collection of handy utilities.
+# Developer Shelf Utilities
+A collection of handy utilities for .Net applications.
 
 
 * Config Services
