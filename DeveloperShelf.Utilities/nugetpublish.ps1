@@ -1,13 +1,13 @@
 Param($a, $b)
 
-if(!$b) {
-    Write-Host "API key required";
-    exit;
-}
-
 if(!$a){
 	Write-Host "Nuget package required"
 	exit;
+}
+
+if(!$b) {
+    Write-Host "API key required";
+    exit;
 }
 
 Write-Host "Starting Nuget package publishing for DeveloperShelf Utilities"
