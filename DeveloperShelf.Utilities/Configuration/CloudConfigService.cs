@@ -1,9 +1,9 @@
 using System;
-using System.Configuration;
+using Microsoft.Azure;
 
-namespace DeveloperShelf.Utilities
+namespace DeveloperShelf.Utilities.Configuration
 {
-    public class ApplicationConfigService : IConfigService
+    public class CloudConfigService : IConfigService
     {
         /// <summary>
         /// provide integer value for the given key
@@ -17,7 +17,7 @@ namespace DeveloperShelf.Utilities
             {
                 throw new ArgumentException("invalid configuration key", nameof(key));
             }
-            var val = ConfigurationManager.AppSettings[key];
+            var val = CloudConfigurationManager.GetSetting(key);
             return string.IsNullOrWhiteSpace(val)
                 ? defValue
                 : Convert.ToInt32(val);
@@ -35,7 +35,7 @@ namespace DeveloperShelf.Utilities
                 throw new ArgumentException("invalid configuration key", nameof(key));
             }
 
-            return ConfigurationManager.AppSettings[key];
+            return CloudConfigurationManager.GetSetting(key);
         }
 
         /// <summary>
@@ -51,7 +51,7 @@ namespace DeveloperShelf.Utilities
                 throw new ArgumentException("invalid configuration key", nameof(key));
             }
 
-            var val = ConfigurationManager.AppSettings[key];
+            var val = CloudConfigurationManager.GetSetting(key);
             return string.IsNullOrWhiteSpace(val)
                 ? defValue
                 : Convert.ToBoolean(val);

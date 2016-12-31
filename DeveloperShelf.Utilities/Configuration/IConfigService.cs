@@ -1,4 +1,4 @@
-﻿namespace DeveloperShelf.Utilities
+﻿namespace DeveloperShelf.Utilities.Configuration
 {
     public interface IConfigService
     {
