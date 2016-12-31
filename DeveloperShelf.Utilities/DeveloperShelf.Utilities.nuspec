@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>$id$</id>
-    <version>$version$</version>
+    <version>$version$-alpha</version>
     <title>$title$</title>
     <authors>dguerin</authors>
     <owners>$author$</owners>
@@ -13,6 +13,5 @@
     <releaseNotes>Adding config service</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>Utilities Code .Net</tags>
-    <version>2.1.0-alpha</version>
   </metadata>
 </package>

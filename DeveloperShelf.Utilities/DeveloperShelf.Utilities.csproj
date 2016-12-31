@@ -139,10 +139,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CloudConfigService.cs" />
-    <Compile Include="IConfigService.cs" />
-    <Compile Include="ApplicationConfigService.cs" />
+    <Compile Include="Configuration\CloudConfigService.cs" />
+    <Compile Include="Configuration\IConfigService.cs" />
+    <Compile Include="Configuration\ApplicationConfigService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Web\ApplicationSettings.cs" />
+    <Compile Include="Web\ContentTypes.cs" />
+    <Compile Include="Web\Headers.cs" />
+    <Compile Include="Web\HttpMethod.cs" />
+    <Compile Include="Web\IWebProvider.cs" />
+    <Compile Include="Web\ProviderResponse.cs" />
+    <Compile Include="Web\WebProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
