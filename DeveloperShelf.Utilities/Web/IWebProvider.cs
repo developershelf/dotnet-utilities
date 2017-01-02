@@ -27,7 +27,7 @@ namespace DeveloperShelf.Utilities.Web
         /// <param name="contentType"></param>
         /// <returns></returns>
         Task<ProviderResponse> DeleteAsync(string path,
-            HttpContent requestContent,
+            HttpContent requestContent = null,
             string accessToken = null,
             string contentType = ContentTypes.Json);
 
