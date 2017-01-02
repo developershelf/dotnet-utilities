@@ -48,7 +48,7 @@ namespace DeveloperShelf.Utilities.Web
         /// <returns></returns>
         public async Task<ProviderResponse> GetAsync(
             string path,
-            HttpContent requestContent,
+            HttpContent requestContent = null,
             string accessToken = null,
             string contentType = ContentTypes.Json)
         {
