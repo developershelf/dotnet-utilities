@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/developershelf/utilities</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A suite of common .Net utilities</description>
-    <releaseNotes>Adding config service</releaseNotes>
+    <releaseNotes>Adding HTTP client library wrapper</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>Utilities Code .Net</tags>
   </metadata>
