@@ -1,6 +1,6 @@
 using System.Net;
 
-namespace DeveloperShelf.Utilities.Web
+namespace DeveloperShelf.Web
 {
     public class ProviderResponse
     {

@@ -1,7 +1,7 @@
 using System;
 using System.Configuration;
 
-namespace DeveloperShelf.Utilities.Configuration
+namespace DeveloperShelf.Configuration.Cloud
 {
     public class ApplicationConfigService : IConfigService
     {

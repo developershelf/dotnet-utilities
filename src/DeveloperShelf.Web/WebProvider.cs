@@ -2,9 +2,9 @@ using System;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
-using DeveloperShelf.Utilities.Configuration;
+using DeveloperShelf.Configuration.Cloud;
 
-namespace DeveloperShelf.Utilities.Web
+namespace DeveloperShelf.Web
 {
     public class WebProvider : IWebProvider
     {

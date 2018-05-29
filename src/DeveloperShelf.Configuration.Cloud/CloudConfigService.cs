@@ -1,7 +1,7 @@
 using System;
 using Microsoft.Azure;
 
-namespace DeveloperShelf.Utilities.Configuration
+namespace DeveloperShelf.Configuration.Cloud
 {
     public class CloudConfigService : IConfigService
     {

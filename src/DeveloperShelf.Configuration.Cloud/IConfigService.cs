@@ -1,4 +1,4 @@
-﻿namespace DeveloperShelf.Utilities.Configuration
+﻿namespace DeveloperShelf.Configuration.Cloud
 {
     public interface IConfigService
     {

@@ -1,4 +1,4 @@
-﻿namespace DeveloperShelf.Utilities.Web
+﻿namespace DeveloperShelf.Web
 {
     public enum HttpMethod
     {

@@ -1,7 +1,7 @@
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace DeveloperShelf.Utilities.Web
+namespace DeveloperShelf.Web
 {
     public interface IWebProvider
     {
